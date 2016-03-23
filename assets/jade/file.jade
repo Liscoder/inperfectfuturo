@@ -1,0 +1,68 @@
+doctype html
+html( lang="en" )
+	head
+		title future inperfect
+		meta(charset='utf-8' )
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		link(rel="stylesheet", href="assets/css/bootstrap.css")
+		link(rel="stylesheet", href="assets/css/font-awesome.min.css")
+		link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Raleway', type='text/css')
+		link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:400,300,700', type='text/css')
+	body(style="padding-bottom:10rem;")
+		header
+			nav.navbar.navbar-default(role="navigation")
+				.navbar-header 
+					button.navbar-toggle.collapsed( type="button", data-toggle="collapse", data-target="#navbar-inverse", aria-expanded="false", aria-controls="navbar")
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand(href="#") FUTURE IMPERFECT
+				#navbar-inverse.collapse.navbar-collapse
+					ul.nav.navbar-nav
+						li.active: a( href="#") HOME
+						li: a( href="#about" ) ABOUT
+						li: a( href="#contact" ) SERVICES
+						li: a( href="#galleries" ) GALLERIES
+						li: a( href="#contact" ) CONTACT
+						form.navbar-form.navbar-right
+							.form-group
+								input.form-control(type="submit")
+							button.btn.btn-default.fa.fa-search
+		section.avatar.text-center
+			img(src="images/logo.jpg")
+			h3 FUTURE IMPERFECT
+			p ANOTHER FINE RESPONSIVE SITE TEMPLATE BY HTML 5 UP 
+		section.magna
+			.container
+				.col-md-8.text-center
+					h2 MAGNA SED ADIPISCING
+					p LOREM IPSUM DOLOR AMET NULLAM CONSEQUAT ETIAM FEUGIAT
+				.col-md-4.text-center
+					h2 NOVEMBER 1, 2015
+					P JANE DOE
+					img(src="images/avatar.jpg", alt="")
+				.col-md-12.text-center
+					img(src="images/pic01.jpg")
+					p Mauris neque  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusantium, dicta architecto rem, voluptatibus repudiandae totam nostrum, vero aspernatur aut vel dolorum repellendus possimus. Dicta non a similique unde nihil!.
+				.col-md-6.float-right
+					button.btn.btn-default CONTINUE READING
+				.col-md-6.float-left
+					nav
+						ul.nav.navbar-nav.text-left
+							li: a( href="#") GENERAL
+							li: i.fa.fa-heart( href="#about") 28
+							li: i.fa.fa-comment( href="#") 128
+						ul
+		section.footer
+			.container.text-center
+				nav
+					ul.pager
+						li: a(href="#",arial-label="Previous")
+							span(aria-hidden="true") &laquo; PREVIOUS PAGE
+						li: a(href="#",arial-label="Next") 
+							span(aria-hidden="true") NEXT PAGE &raquo; 
+
+	script(src="../assets/js/bootstrap.min.js")
+	script(src="../assets/js/jquery.min.js")
